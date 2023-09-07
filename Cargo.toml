@@ -1,0 +1,18 @@
+[package]
+name = "sc_decode"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Special character decoding"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[profile.dev]
+opt-level = 0
+
+
+[profile.release]
+opt-level = 3
